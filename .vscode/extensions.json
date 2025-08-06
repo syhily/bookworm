@@ -1,0 +1,4 @@
+{
+  "recommendations": ["golang.go", "a-h.templ"],
+  "unwantedRecommendations": []
+}
