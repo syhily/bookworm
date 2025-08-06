@@ -1,18 +1,23 @@
 {
   "cSpell.words": [
     "asmflags",
+    "blackfriday",
     "bodyclose",
     "buildvcs",
     "covermode",
     "coverprofile",
+    "cpuguy",
     "danielgtaylor",
+    "davecgh",
     "depguard",
+    "difflib",
     "distroless",
     "dupl",
     "dylib",
     "errcheck",
     "erronly",
     "funlen",
+    "fxamacker",
     "gcflags",
     "goconst",
     "gocritic",
@@ -21,6 +26,7 @@
     "goimports",
     "golangci",
     "GOMAXPROCS",
+    "gopkg",
     "goprintffuncname",
     "goreleaser",
     "gosec",
@@ -29,6 +35,7 @@
     "huma",
     "humachi",
     "humacli",
+    "inconshreveable",
     "ineffassign",
     "ldflags",
     "logrus",
@@ -37,10 +44,14 @@
     "noctx",
     "nolintlint",
     "nonroot",
+    "pflag",
+    "pmezard",
     "rakyll",
     "romshark",
+    "russross",
     "sirupsen",
     "staticcheck",
+    "stretchr",
     "templ",
     "templiér",
     "trimpath",
@@ -56,5 +67,8 @@
   },
   "emmet.includeLanguages": {
     "templ": "html"
+  },
+  "gopls": {
+    "formatting.local": "bookworm"
   }
 }

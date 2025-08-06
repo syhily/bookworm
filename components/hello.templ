@@ -1,9 +1,11 @@
-package templates
+package components
 
 var greeting = "Welcome!"
 
-templ hello(name string) {
-	<div>Hello, { name }</div>
-	<p>dd</p>
-	<p>ddddd</p>
+templ Hello(name string) {
+	<div>
+		<p>Hello, { name }</p>
+		<p>This is a new paragraph.</p>
+		<p>This is another new paragraph.</p>
+	</div>
 }
