@@ -1,0 +1,60 @@
+{
+  "cSpell.words": [
+    "asmflags",
+    "bodyclose",
+    "buildvcs",
+    "covermode",
+    "coverprofile",
+    "danielgtaylor",
+    "depguard",
+    "distroless",
+    "dupl",
+    "dylib",
+    "errcheck",
+    "erronly",
+    "funlen",
+    "gcflags",
+    "goconst",
+    "gocritic",
+    "gocyclo",
+    "gofmt",
+    "goimports",
+    "golangci",
+    "GOMAXPROCS",
+    "goprintffuncname",
+    "goreleaser",
+    "gosec",
+    "gotest",
+    "govet",
+    "huma",
+    "humachi",
+    "humacli",
+    "ineffassign",
+    "ldflags",
+    "logrus",
+    "msan",
+    "nakedret",
+    "noctx",
+    "nolintlint",
+    "nonroot",
+    "rakyll",
+    "romshark",
+    "sirupsen",
+    "staticcheck",
+    "templ",
+    "templiér",
+    "trimpath",
+    "unconvert",
+    "unparam"
+  ],
+  "editor.formatOnSave": true,
+  "[templ]": {
+    "editor.defaultFormatter": "a-h.templ"
+  },
+  "tailwindCSS.includeLanguages": {
+    "templ": "html"
+  },
+  "emmet.includeLanguages": {
+    "templ": "html"
+  }
+}

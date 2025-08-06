@@ -28,5 +28,11 @@ go.work.sum
 .env
 
 # Editor/IDE
-# .idea/
-# .vscode/
+.idea/
+.vscode/
+!.vscode/settings.json
+!.vscode/launch.json
+
+# Build files
+__debug*
+bookworm

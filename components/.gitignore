@@ -1,0 +1,2 @@
+# Ignore all the Templ generated Golang file
+*_templ.go
