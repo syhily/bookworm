@@ -32,6 +32,7 @@ go.work.sum
 .vscode/
 !.vscode/settings.json
 !.vscode/launch.json
+!.vscode/extensions.json
 
 # Build files
 __debug*

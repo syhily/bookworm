@@ -13,7 +13,7 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/syhily/bookworm/cli"
+	"github.com/syhily/bookworm/utilities/cli"
 )
 
 func ExampleCLI() {

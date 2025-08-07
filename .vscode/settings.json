@@ -49,6 +49,8 @@
     "nolint",
     "nolintlint",
     "nonroot",
+    "notabool",
+    "notanint",
     "ntsc",
     "pflag",
     "pmezard",

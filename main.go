@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/syhily/bookworm/cli"
 	"github.com/syhily/bookworm/handlers"
+	"github.com/syhily/bookworm/utilities/cli"
 )
 
 // Options for Bookworm. Pass `--port` or set the `SERVICE_PORT` env var.
