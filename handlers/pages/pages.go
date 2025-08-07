@@ -9,7 +9,7 @@ import (
 	"github.com/syhily/bookworm/components"
 )
 
-func getArticle(w http.ResponseWriter, r *http.Request) {
+func HelloPage(w http.ResponseWriter, r *http.Request) {
 	name := chi.URLParam(r, "name")
 	templ.Handler(components.Hello(name)).ServeHTTPStreamed(w, r)
 }
