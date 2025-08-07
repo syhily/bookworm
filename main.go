@@ -9,7 +9,7 @@ import (
 	_ "github.com/danielgtaylor/huma/v2/formats/cbor"
 	"github.com/danielgtaylor/huma/v2/humacli"
 
-	"bookworm/handlers"
+	"github.com/syhily/bookworm/handlers"
 )
 
 // Options for Bookworm. Pass `--port` or set the `SERVICE_PORT` env var.

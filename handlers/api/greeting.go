@@ -6,7 +6,7 @@ import (
 
 	"github.com/danielgtaylor/huma/v2"
 
-	"bookworm/handlers/register"
+	"github.com/syhily/bookworm/handlers/register"
 )
 
 func init() {

@@ -6,8 +6,8 @@ import (
 	"github.com/a-h/templ"
 	"github.com/go-chi/chi/v5"
 
-	"bookworm/components"
-	"bookworm/handlers/register"
+	"github.com/syhily/bookworm/components"
+	"github.com/syhily/bookworm/handlers/register"
 )
 
 func init() {

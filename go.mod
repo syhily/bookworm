@@ -1,4 +1,4 @@
-module bookworm
+module github.com/syhily/bookworm
 
 go 1.24.5
 

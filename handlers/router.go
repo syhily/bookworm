@@ -3,9 +3,9 @@ package handlers
 import (
 	"net/http"
 
-	_ "bookworm/handlers/api"
-	_ "bookworm/handlers/pages"
-	"bookworm/handlers/register"
+	_ "github.com/syhily/bookworm/handlers/api"
+	_ "github.com/syhily/bookworm/handlers/pages"
+	"github.com/syhily/bookworm/handlers/register"
 )
 
 func Router() http.Handler {

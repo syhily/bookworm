@@ -5,14 +5,14 @@ help: ## Display this help
 		/^[a-zA-Z_-]+:.*?##/ { printf "  \033[36m%-10s\033[0m %s\n", $$1, $$2 }' $(MAKEFILE_LIST)
 
 gen: ## Generate templ code
-	go install github.com/a-h/templ/cmd/templ@latest
+	@go install github.com/a-h/templ/cmd/templ@latest
 	templ generate
 
 build: deps gen ## Build executable files
 	go build -gcflags=all="-l -B" --ldflags="-s -w" -buildvcs=false -o bookworm .
 
 test: ## Run tests
-	go install "github.com/rakyll/gotest@latest"
+	@go install "github.com/rakyll/gotest@latest"
 	gotest -v -coverprofile=coverage.out -covermode=atomic ./...
 
 deps: ## Update dependencies
@@ -21,5 +21,10 @@ deps: ## Update dependencies
 	go get -u ./...
 
 watch: ## Start a dev server
-	go install github.com/romshark/templier@latest
+	@go install github.com/romshark/templier@latest
 	templier --config ./templier.yml
+
+format: ## Format the templ and go code
+	@go install github.com/a-h/templ/cmd/templ@latest
+	templ fmt components
+	golangci-lint fmt -c ./.golangci.yml
