@@ -6,9 +6,7 @@ import (
 	"net/http"
 	"time"
 
-	_ "github.com/danielgtaylor/huma/v2/formats/cbor"
-	"github.com/danielgtaylor/huma/v2/humacli"
-
+	"github.com/syhily/bookworm/cli"
 	"github.com/syhily/bookworm/handlers"
 )
 
@@ -18,7 +16,7 @@ type Options struct {
 }
 
 func main() {
-	bookworm := humacli.New(func(hooks humacli.Hooks, options *Options) {
+	bookworm := cli.New(func(hooks cli.Hooks, options *Options) {
 		// Tell the CLI how to start your router.
 		hooks.OnStart(func() {
 			server := &http.Server{

@@ -9,7 +9,7 @@ This application is divided up into multiple packages, each with its own purpose
 - `handlers` - HTTP handlers.
 - `services` - Services used by the handlers.
 - `sessions` - Middleware for implementing HTTP session IDs.
-- `main`.go - Used to run the application locally.
+- `main.go` - Used to run the application locally.
 
 ## Development
 

@@ -3,11 +3,20 @@ package handlers
 import (
 	"net/http"
 
-	_ "github.com/syhily/bookworm/handlers/api"
-	_ "github.com/syhily/bookworm/handlers/pages"
-	"github.com/syhily/bookworm/handlers/register"
+	"github.com/go-chi/chi/v5"
 )
 
+var (
+	mux = chi.NewMux()
+)
+
+func init() {
+	mux.Group(func(r chi.Router) {
+		r.Route("/api", func(r chi.Router) {
+		})
+	})
+}
+
 func Router() http.Handler {
-	return register.Router
+	return mux
 }
